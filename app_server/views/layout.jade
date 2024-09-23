@@ -8,19 +8,23 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     nav.navbar.fixed-top.navbar-expand-md.navbar-light.container
-      a.navbar-brand(href='/') Roast 
+      a.navbar-brand(href='/')
+       img(src='/images/roast-logo.png', alt='Roast', style='height: 40px;') 
       button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarMain')
         span.navbar-toggler-icon
       #navbarMain.navbar-collapse.collapse
         ul.navbar-nav.mr-auto
           li.nav-item
             a.nav-link(href='/about/') About
+    
     .container.content
       block content
+
     footer
       .row
         .col-12
-          small &copy; Team 15 @AIML-B
+          small &copy; Team Roast
+
     script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js',
       integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo',
       crossorigin='anonymous')
