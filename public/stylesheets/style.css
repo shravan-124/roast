@@ -53,7 +53,7 @@ margin-left: -16px;
 margin-bottom: 0.5em;
 }
 .badge-default, .btn-primary {
-background-color: #02367e;
+background-color: #c58a53;
 border-color: #911821;
 }
 h4 a, h4 a:hover {
@@ -62,10 +62,10 @@ color: #fff;
 h4 small {
   font-size: 60%;
   line-height: 200%;
-  color: #c2f0ff;
+  color: #02141a;
   }
   h1 small {
-  color: #c4f3f5;
+  color: #0f1313;
   }
   .address {
   margin-bottom: 0.5rem;
@@ -77,13 +77,13 @@ h4 small {
   margin-bottom: 0.65rem;
   }
   a {
-  color: rgba(209, 255, 254, 0.8)
+  color: rgba(19, 23, 23, 0.8)
   }
   a:hover {
-  color:#fff
+  color:#0a0606
   }
   body {
   font-family: "Cabin", Arial, sans-serif;
-  color: #d4f9fc;
-  background-color: #3B2A1A;
+  color: #040606;
+  background-color: #caa787;
   }
