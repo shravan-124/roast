@@ -2,30 +2,33 @@ extends layout
 
 block content
   .row.banner
-  .col-12
-    img(src="images/roastlogo.png", alt="Roast Logo", class="img-fluid", style="max-width: 200px;") // Adjust the max-width as needed
-    h1 Roast 
-    small &nbsp;A place with a Great Wifi and a Greater Coffee 
+    .col-12
+      img(src="images/roastlogo.png", alt="Roast Logo", class="img-fluid", style="max-width: 200px;") // Adjust the max-width as needed
+      h1 Roast
+      small &nbsp;
 
   .row
     .col-12.col-md-8
       .card
         .card-block
           h4
-            a(href="/location") Roast
+            a(href="/location") Cappuccino
           small &nbsp;
           i.fas.fa-star
           i.fas.fa-star
           i.fas.fa-star
           i.far.fa-star
           i.far.fa-star
-          span.badge.badge-pill.badge-default.float-right 100m
-          p.address Madhapur 
-          p.facilities
-            span.badge.badge-warning Comfortable Seating 
-            span.badge.badge-warning Great Food
-            span.badge.badge-warning Premium wifi
-            span.badge.badge-warning Pet-Friendly Area
+         
+          .row
+            .col-6
+              p.facilities
+                span.badge.badge-warning Cappuccino is a coffee drink made with espresso, steamed milk,
+                span.badge.badge-warning  and frothed milk.The frothed milk creates a velvety texture
+                span.badge.badge-warning  and a distinctive layer on top of the espresso.
+                span.badge.badge-warningIt is often served with a sprinkle of cinnamon or cocoa powder.
+            .col-6
+              img(src="images/coffee.png", alt="Cappuccino Image", class="img-fluid")
 
     .col-12.col-md-4
-      p.lead Looking for wifi and a seat? Perhaps with coffee, cake or a pint? Then Roast is The Place you are looking for
+      p.lead
